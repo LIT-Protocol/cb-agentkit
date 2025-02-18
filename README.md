@@ -37,7 +37,7 @@ The project is designed to be modular and extensible, allowing developers to bui
 ---
 
 ## Repository Structure
-
+```
 The repository is organized as follows:
 cb-agentkit/
 ├── typescript/
@@ -55,8 +55,7 @@ cb-agentkit/
 │ │ └── litAgentWalletProvider.py # ERC20 transfer using Lit Agent Wallet
 │ └── ... # Other Python files and configurations
 └── README.md # This file
-
-Copy
+```
 
 ---
 
@@ -81,41 +80,46 @@ Install dependencies for the desired language:
 
 TypeScript:
 
-bash
+```bash
 Copy
 cd typescript/examples/langchain-cdp-chatbot
 yarn install
+```
 Python:
-
-bash
+```bash
 Copy
 cd python/examples/langchain-cdp-chatbot
 pip install -r requirements.txt
+```
 Usage
 TypeScript
 Navigate to the TypeScript examples folder:
 
-bash
+```bash
 Copy
 cd typescript/examples/langchain-cdp-chatbot
+```
 Run the chatbot:
 
-bash
+```bash
 Copy
 yarn start
+```
 Explore the chatbot.ts, litActionProvider.ts, and litAgentWalletTransfer.ts files to understand how the EVM wallet, Lit Actions, and ERC20 transfers are implemented.
 
 Python
 Navigate to the Python examples folder:
 
-bash
+```bash
 Copy
 cd python/examples/langchain-cdp-chatbot
+```
 Run the chatbot:
 
-bash
+```bash
 Copy
 python chatbot.py
+```
 Explore the chatbot.py, litActionProvider.py, and litAgentWalletProvider.py files to understand how the EVM wallet, Lit Actions, and ERC20 transfers are implemented.
 
 Important Files
@@ -148,7 +152,3 @@ Submit a pull request with a detailed description of your changes.
 
 License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
-
-Copy
-
-You can copy this directly into your `README.md` file. Let me know if you need further assistance!
